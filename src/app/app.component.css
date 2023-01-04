@@ -1,0 +1,22 @@
+.center-cropped img {
+    object-fit: cover;
+    width: 1920px;
+    height: 200px;
+  }
+
+  .bioDiv{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+  }
+
+  .gridLeft{
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .gridRight{
+    grid-column: 3;
+    grid-row: 1;
+  }
